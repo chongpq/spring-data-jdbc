@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS product;
+
+CREATE TABLE product (
+    id SERIAL PRIMARY KEY,
+    value VARCHAR(255) NOT NULL,
+    amount DECIMAL(10, 2) NOT NULL
+);
